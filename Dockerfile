@@ -11,5 +11,5 @@ RUN npm install
 # Copy the rest of the code
 COPY . .
 
-# Default command (edit if needed)
+# Default command
 CMD ["npm", "run", "start"]
